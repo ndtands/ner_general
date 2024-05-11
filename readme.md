@@ -114,12 +114,6 @@ flowchart LR
             (out_project): Linear(in_features=1536, out_features=768, bias=True)
             )
         )
-        (prompt_rep_layer): Sequential(
-            (0): Linear(in_features=768, out_features=3072, bias=True)
-            (1): Dropout(p=0.4, inplace=False)
-            (2): ReLU()
-            (3): Linear(in_features=3072, out_features=768, bias=True)
-        )
         ```
     - prompt_rep_layer
         ```python
