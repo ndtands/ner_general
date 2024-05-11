@@ -1,0 +1,4 @@
+gliner
+scipy
+gradio
+pre-commit
